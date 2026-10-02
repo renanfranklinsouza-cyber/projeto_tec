@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int num, i;
+
+    // Lendo o número para a tabuada
+    printf("Digite um numero inteiro para ver a tabuada: ");
+    scanf("%d", &num);
+
+    printf("\nTabuada do %d:\n", num);
+
+    // Laço de 1 a 10 para calcular e mostrar os resultados
+    for (i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", num, i, num * i);
+    }
+
+    return 0;
+}
